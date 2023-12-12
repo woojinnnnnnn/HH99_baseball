@@ -1,7 +1,3 @@
-
-let computer = [2,4,5];
-let user = "345";
-
 function check (computer, user){
     arr = user.split("").map(n => +n) 
 
@@ -22,9 +18,5 @@ function check (computer, user){
 
     return `${b}B${s}S`;
 }
-
-console.log(check([3,4,5],"345"));
-
-
 
 module.exports.check = check
