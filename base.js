@@ -16,7 +16,6 @@ console.log('컴퓨터가 숫자를 생성하였습니다. 답을 맞춰보세�
 process.stdout.write('1번째 시도 : ');
 rl.on('line', (line) => {
     user_input = line;
-    console.log(user_input);
 
     result = kibum.check(computer, user_input);
 
